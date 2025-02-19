@@ -29,6 +29,9 @@ jobs:
         working-directory: ./ai_chat
         run: flutter build web --release --base-href /chat/
       
+      - name: Create .nojekyll file
+        run: touch ./ai_chat/build/web/.nojekyll
+      
       - name: Setup Pages
         uses: actions/configure-pages@v4
       
