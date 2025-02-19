@@ -27,7 +27,7 @@ jobs:
       
       - name: Build
         working-directory: ./ai_chat
-        run: flutter build web --release --base-href /chat/
+        run: flutter build web --release --base-href /chat2.0/
       
       - name: Create .nojekyll file
         run: touch ./ai_chat/build/web/.nojekyll
