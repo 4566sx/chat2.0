@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd ai_chat && flutter build web --release",
+  "outputDirectory": "ai_chat/build/web",
+  "framework": "flutter",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+} 
